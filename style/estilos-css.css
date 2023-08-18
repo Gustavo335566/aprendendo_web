@@ -1,0 +1,28 @@
+p b {background-color: rgb(215, 31, 14);
+text-decoration: underline;}
+
+body {background-color: rgb(160, 159, 159);}
+
+.sublinhado {text-decoration: underline;}
+
+a {font-size: 20px; color: rgb(17, 0, 255); cursor: pointer;}
+
+.outro-cor {font-size: 18px; color: rgb(8, 12, 243);}
+
+a:hover {color: chartreuse;}
+
+.apresentacao {background-color: gray; border: 5px solid black;}
+
+.menu {list-style: none; float: center; text-align: center; border: 5px solid black; display: inline;}
+
+nav {background-color: rgb(187, 1, 1);}
+
+.button {background-color: rgb(205, 205, 154);}
+
+.contato {background-color: yellowgreen; border: 5px solid black;
+            text-align: center;
+            height: 80px;
+            width: 300px;
+            position: left;
+            top: 20px;
+            left: 20px;}
