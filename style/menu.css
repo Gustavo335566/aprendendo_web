@@ -19,6 +19,7 @@
     margin-left: 0px;
     border-right: 0px;
     margin-right: 0px;
+    padding: 0px;
 }
 #menu-h ul li a{
     display: inline-block;
@@ -26,23 +27,25 @@
     text-decoration: none;
     padding: 20px;
     border-top: 0px;
-    transition: background .3s;
+    transition: background .6s;
     text-align: center;
     margin-top: 0px;
     border-left: 0px;
     margin-left: 0px;
     border-right: 0px;
     margin-right: 0px;
+    margin-bottom: 0px;
     cursor: pointer;
 }
 #menu-h ul li a:hover{
     color: red;
     background-color: rgb(233, 233, 102);
-    padding: 25px;
     margin-top: 0px;
     border-top: 0px;
     border-left: 0px;
     margin-left: 0px;
     border-right: 0px;
     margin-right: 0px;
+    border-bottom: 5px solid rgb(233, 233, 102);
+    margin-bottom: 0px;
 }

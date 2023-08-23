@@ -50,10 +50,15 @@ dd > a {font-size: 15px;}
 /*cabeçalho de apresentação */
 .apresentacao {background-color: gray; border: 0px;}
 .fundo-amarelo {background-color: yellow;}
-.python {
-    position: relative; left: 200px;
-}
 .assembly{
     position: relative; left: 200px;
 }
-#
+
+.linguagem {
+    display: flex;
+    justify-content: flex-start;
+}
+
+.linguagem > img {
+    margin-left: 30px;
+}
