@@ -1,0 +1,34 @@
+.container {
+    display: grid;
+    grid-template-columns: 50% 50%;
+}
+.item {
+    margin: 20px;
+}
+.lado{
+    display: inline;
+}
+.meio{
+    grid-template-rows: 50% 50%;
+
+}
+.center{
+    text-align: center;
+}
+
+#informacoes {
+    padding: 0px;
+    margin: 0px;
+}
+#informacoes ul {
+    padding: 0px;
+    margin: 0px;
+}
+#informacoes ul li {
+    margin: 0px;
+    padding: 0px;
+    text-align: left;
+}
+#informacoes ul li p{
+    margin: 0px;
+}

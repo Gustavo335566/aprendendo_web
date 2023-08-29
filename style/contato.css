@@ -1,0 +1,10 @@
+.container-contato{
+    display: grid;
+    grid-template-columns: repeat(4, auto);
+    justify-content: center;
+    margin: 20px;
+}
+.icone-contato{
+    margin: 10px;
+    display: inline-grid;
+}
