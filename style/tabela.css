@@ -1,0 +1,33 @@
+table {
+    text-align: center;
+    margin: 30px;
+    border: 1px solid black;
+}
+thead{
+    margin: 10px;
+    align-items: center;
+}
+td{
+    margin: 30px;
+    text-align: center;
+    padding: 30px;
+    justify-items: center;
+    border: 1px solid black;
+}
+.cabecalho{
+    background-color: rgb(50, 51, 52);
+    color: aqua;
+}
+
+.avisos{
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+}
+.item3{
+    flex-basis: 50px;
+    margin: 20px;
+    height: 200px;
+    width: 150px;
+    text-align: center;
+}
