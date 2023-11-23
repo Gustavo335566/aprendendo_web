@@ -1,11 +1,75 @@
+.menu-h {
+    display: flex;
+    flex-direction: row;
+    background-color: #121122;
+    border: 2px solid #121122;
+    height: 35px;
+    justify-content: space-between;
+}
+.menu-mini {
+    display: flex;
+}
+.menu-icon {
+    display: block;
+    float: left;
+    margin-right: 30%;
+}
+.menu-logout {
+    display: block;
+    float: right;
+    margin-left: 30%;
+    border: 2px solid white;
+    align-content: flex-end;
+    margin-right: 0px;
+}
+.menu-direction {
+    display: block;
+    background-color: #121122;
+    align-self: center;
+    color: #ED009C;
+    margin: 0px;
+}
+.menu-direction :hover {
+    background-color: white;
+    padding-left: 5px solid white;
+    padding-right: 5px solid white;
+    
+}
+.menu-p {
+    padding-bottom: 5px;
+    padding-top: 7px;
+    height: 23px;
+    border: 2px solid #ED009C;
+    padding-left: 5px;
+    padding-right: 7px;
+    margin: -2px;
+}
+
+
+
+
+
+
+
 #menu-h {
     display: flex;
     flex-direction: row;
     background-color: #121122;
+    justify-content: center;
+    padding: 0px;
+    height: 35px;
+
+
 }
 #menu-h div {
-    align-items: flex-start;
+    justify-items: center;
+    background-color: white;
+    border: 2px solid blue;
 }
-#menu-h div img {
-    align-items: center;
+#menu-h div::first-letter {
+    display: flex;
+    justify-content: flex-start;
+    border:0px;
+    width: 30%;
 }
+
