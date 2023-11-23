@@ -1,0 +1,11 @@
+#menu-h {
+    display: flex;
+    flex-direction: row;
+    background-color: #121122;
+}
+#menu-h div {
+    align-items: flex-start;
+}
+#menu-h div img {
+    align-items: center;
+}
