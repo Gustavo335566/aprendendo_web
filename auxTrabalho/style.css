@@ -2,7 +2,10 @@
     display: flex;
     flex-direction: row;
     background-color: #121122;
-    border: 2px solid #121122;
+    border-right: 2px solid #121122;
+    border-left: 2px solid #121122;
+    border-top: 0px;
+    border-bottom: 0px;
     height: 35px;
     justify-content: space-between;
 }
@@ -15,19 +18,37 @@
     margin-right: 30%;
 }
 .menu-logout {
-    display: block;
-    float: right;
+    display: flex;
     margin-left: 30%;
-    border: 2px solid white;
     align-content: flex-end;
     margin-right: 0px;
+    color: #121122;
 }
+.menu-a {
+    display: flex;
+    border: 3px solid #ED009C;
+    height: 30px;
+    color: #121122;
+    width: 80px;
+    justify-content: space-around;
+}
+.menu-a :hover {
+    width: 60px;
+    background-color: white;
+    border: 3px solid #ED009C;
+    align-content: flex-end;
+    margin-right: 0px;
+    display: block;
+    float: right;
+    color: #ED009C;
+}
+
 .menu-direction {
     display: block;
     background-color: #121122;
     align-self: center;
-    color: #ED009C;
     margin: 0px;
+    border: 0px;
 }
 .menu-direction :hover {
     background-color: white;
@@ -36,40 +57,14 @@
     
 }
 .menu-p {
-    padding-bottom: 5px;
+    height: 35px;
+    padding-bottom: 8px;
     padding-top: 7px;
     height: 23px;
     border: 2px solid #ED009C;
     padding-left: 5px;
     padding-right: 7px;
-    margin: -2px;
+    margin: 0px -1px 0px -1px;
+    color: #ED009C;
+    text-decoration:  None;
 }
-
-
-
-
-
-
-
-#menu-h {
-    display: flex;
-    flex-direction: row;
-    background-color: #121122;
-    justify-content: center;
-    padding: 0px;
-    height: 35px;
-
-
-}
-#menu-h div {
-    justify-items: center;
-    background-color: white;
-    border: 2px solid blue;
-}
-#menu-h div::first-letter {
-    display: flex;
-    justify-content: flex-start;
-    border:0px;
-    width: 30%;
-}
-
