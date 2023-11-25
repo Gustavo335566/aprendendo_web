@@ -31,10 +31,11 @@
     width: 30px;
     height: 30px;
     margin-left: 3px;
+    border: 0px;
 }
 .alinhamento-logout :hover, .alinhamento-botao-logout :hover, .menu-logout :hover {
     background-color: white;
-    border: 2px solid #ED009C;
+    border: 0px;
 }
 .menu-a {
     display: flex;
