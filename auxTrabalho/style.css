@@ -84,3 +84,35 @@
     color: #ED009C;
     text-decoration:  None;
 }
+
+.cabecalho {
+    display: flex;
+    align-self: center;
+    justify-content: center;
+    background-color: #ED009C;
+    color: #121122;
+    border: 2px solid white;
+}
+.corpo-chat {
+    background-color: #121122;
+    color: #ED009C;
+    border: 5px solid #ED009C;
+    display: flex;
+}
+.lista-conversas {
+    width: 30%;
+    background-color: white;
+    text-align: center;
+    border: 5px solid #121122;
+}
+.conversas-selecionadas {
+    width: 70%;
+    height: 60%;
+    text-align: center;
+    justify-content: center;
+    background-color: #121122;
+    border: 5px solid white;
+}
+body {
+    background-color: #121122;
+}
